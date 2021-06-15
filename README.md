@@ -3,7 +3,7 @@
 ___Information about inner-workings of the project will be added later.___
 
 General Explanation:
-- Pipelined System Verilog Floating-point Matrix MAC with One-Neuron Shift-in
+- Pipelined System Verilog Floating-point Matrix MAC with two layers and a One-Neuron Shift-in
 - Uses stored ".mem" files to multiply-accumulate an input matrix with two sets of weight matrices
 - Test bench takes all output data and displays the accuracy of the "black box" system; data accuracy has an error ranging from ~0% to ~2% on average
 
