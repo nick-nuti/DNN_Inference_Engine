@@ -16,3 +16,6 @@ Easiest way to run the project:
 1. Download *DNN_Inference_Engine.xpr.zip*
 2. Extract it and open *miniproject2.xpr* in Vivado
 3. Run a simulation and view the results in the "LOG" tab
+
+
+Eventually Tried to get it to talk to a Zynq processor to compare processing speeds. Zynq program needs further work (FP MAC got messed up due to version upgrade of Vivado). Vitis IDE File is "main.c" ; This required A LOT of work to create an IP module that communicates with a Zynq over an AXI bus. The Vitis project and IP modules were difficult to work with.
